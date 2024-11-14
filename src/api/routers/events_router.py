@@ -3,9 +3,9 @@ from typing import List
 
 from fastapi import APIRouter, Response
 
-from api.classes import EventData, AnswerData
-from api.depends import CoreDep, HttpQueuesDep
-from event import Event
+from Interfece.Core.src.api.classes import EventData, AnswerData
+from Interfece.Core.src.api.depends import CoreDep, HttpQueuesDep
+from Interfece.Core.src.event import Event
 
 events_router = APIRouter(tags=["events"])
 

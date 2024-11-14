@@ -1,7 +1,7 @@
 from textual import app
 from textual import widgets
 
-import core
+from Interfece.Core.src import core
 from .modules import ModulesScreen
 from .settings import SettingsScreen
 

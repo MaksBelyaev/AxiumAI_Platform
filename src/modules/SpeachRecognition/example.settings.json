@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "is_active": false,
+  "require_modules": [],
+  "config": {
+    "send_text_event": false,
+    "ext_only": false,
+    "trigger_name": "джарвис|джарвиз"
+  }
+}

@@ -2,9 +2,9 @@ import asyncio
 
 from fastapi import APIRouter, Response
 
-from api.depends import CoreDep
-from api.classes import CoreData
-from event import Event, EventTypes
+from Interfece.Core.src.api.depends import CoreDep
+from Interfece.Core.src.api.classes import CoreData
+from Interfece.Core.src.event import Event, EventTypes
 
 core_router = APIRouter(tags=["core"])
 

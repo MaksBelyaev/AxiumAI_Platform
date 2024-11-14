@@ -6,7 +6,7 @@ import sys
 
 import httpx
 
-from event import Event
+from Interfece.Core.src.event import Event
 
 logger = logging.getLogger(__name__)
 

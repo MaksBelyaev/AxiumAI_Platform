@@ -2,7 +2,7 @@ import uuid
 from typing import List, Union, Any
 from pydantic import BaseModel, Field
 
-from event import Event
+from Interfece.Core.src.event import Event
 
 
 class AnswerData(BaseModel):

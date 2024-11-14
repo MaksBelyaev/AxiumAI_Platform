@@ -5,8 +5,8 @@ from typing import Annotated, List
 
 from fastapi import Depends
 
-from core import Core
-from event import Event
+from Interfece.Core.src.core import Core
+from Interfece.Core.src.event import Event
 
 core = Core()
 core.init()

@@ -2,8 +2,8 @@ from typing import List
 
 from fastapi import APIRouter
 
-from api.classes import IntentData
-from api.depends import CoreDep
+from Interfece.Core.src.api.classes import IntentData
+from Interfece.Core.src.api.depends import CoreDep
 
 intents_router = APIRouter(tags=["intents"])
 

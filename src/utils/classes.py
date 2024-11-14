@@ -5,7 +5,7 @@ from dataclasses import dataclass, field
 from functools import partial
 from typing import List, Dict, Callable, Any, Set
 import inspect
-from event import Event, EventTypes
+from Interfece.Core.src.event import Event, EventTypes
 
 #from module_manager import ModuleManager
 

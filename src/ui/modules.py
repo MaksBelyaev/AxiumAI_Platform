@@ -1,7 +1,7 @@
 import json
 
 from textual import screen, widgets, app, on, containers
-from module_manager import ModuleManager, Module
+from Interfece.Core.src.module_manager import ModuleManager, Module
 
 module_manager = ModuleManager()
 module_manager.init_modules()

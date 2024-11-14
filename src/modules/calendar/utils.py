@@ -2,7 +2,7 @@ import asyncio
 import logging
 import caldav
 from .cal_funcs import create_event, CalendarData, Calendar
-from event import Event, EventTypes
+from Interfece.Core.src.event import Event, EventTypes
 
 logger = logging.getLogger(__name__)
 

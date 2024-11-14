@@ -1,6 +1,6 @@
 from num2words import num2words
 
-from event import Event, EventTypes
+from Interfece.Core.src.event import Event, EventTypes
 
 
 def num_to_word(event: Event):

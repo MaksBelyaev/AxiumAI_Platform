@@ -1,0 +1,8 @@
+{
+  "version": "0.1",
+  "is_active": true,
+  "require_modules": [],
+  "config": {
+    "api_open_weather": "9cadbfeb0d725b3be4b9a5658d430edb"
+  }
+}
