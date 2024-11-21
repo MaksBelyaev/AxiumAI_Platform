@@ -7,7 +7,7 @@ from typing import List
 
 import caldav
 import ics
-from event import Event
+from Interfece.Core.src.event import Event
 
 logger = logging.getLogger(__name__)
 

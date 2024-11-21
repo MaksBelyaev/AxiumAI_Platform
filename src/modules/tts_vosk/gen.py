@@ -11,7 +11,7 @@ import sounddevice
 from tqdm import tqdm
 from vosk_tts import Model, Synth
 
-from event import Event, EventTypes
+from Interfece.Core.src.event import Event, EventTypes
 
 logger = logging.getLogger("root")
 

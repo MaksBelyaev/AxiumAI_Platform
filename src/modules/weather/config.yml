@@ -1,0 +1,8 @@
+ver: "1.0"
+intent_examples:
+  get_weather_forecast: ["прогноз погоды в", "какая погода в"]
+
+
+
+
+

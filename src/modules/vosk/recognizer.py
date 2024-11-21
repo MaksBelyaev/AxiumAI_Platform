@@ -12,9 +12,11 @@ import vosk
 import pyaudio
 import logging
 
+
 from tqdm import tqdm
 
 from event import EventTypes, Event
+
 from .audio_utils import filter_voice_gen
 
 logger = logging.getLogger("root")

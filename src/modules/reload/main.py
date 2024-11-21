@@ -2,7 +2,7 @@ import os
 import sys
 import logging
 
-from event import Event
+from Interfece.Core.src.event import Event
 
 logger = logging.getLogger("root")
 

@@ -7,7 +7,7 @@ from aiogram.enums.parse_mode import ParseMode
 from aiogram.fsm.storage.memory import MemoryStorage
 import dotenv
 
-from event import Event, EventTypes
+from Interfece.Core.src.event import Event, EventTypes
 
 router = Router()
 
